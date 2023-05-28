@@ -1,0 +1,18 @@
+.register {
+    display: flex;
+}
+
+.leftSide {
+    flex: 1;
+}
+
+.rightSide {
+    flex: 1;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

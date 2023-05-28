@@ -1,0 +1,58 @@
+.addCar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.leftSide {
+    width: 40%;
+}
+
+.leftSide img {
+    width: 100%;
+    height: auto;
+}
+
+.rightSide {
+    width: 50%;
+}
+
+.addCarForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.addCarForm label {
+    margin-bottom: 10px;
+}
+
+.addCarForm input[type='text'],
+.addCarForm input[type='number'],
+.addCarForm input[type='file'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.addCarForm div {
+    display: flex;
+    align-items: center;
+}
+
+.addCarForm input[type='radio'] {
+    margin-right: 5px;
+}
+
+.addCarForm button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.addCarForm button:hover {
+    background-color: #0056b3;
+}

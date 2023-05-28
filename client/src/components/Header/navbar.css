@@ -1,0 +1,28 @@
+
+  .navbar{
+    justify-content: space-between;
+    background-color: #8faad6;
+    padding:10px 10px 10px 10px;
+  }
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+
+  }
+  
+  .navbar li.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  .navbar a{
+    text-decoration : none;
+  }
+  
